@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0;
+}
+
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+ 
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+.top-wrapper {
+  padding-top: 300px;
+  padding-bottom: 200px;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 10px;
+  text-decoration: orange solid underline;
+  color: #5f5d60;
+}
+
+
+.heading h2 {
+  
+  padding-left: 500px;
+  font-weight: 900;
+
+}
+
+section {
+  padding-left: 450px;
+}
+
+section h2 {
+   color: #5f5d60;
+
+}
+
+section p {
+  padding-bottom: 10px;
+}
+
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all .5s ease;
+}
+
+
+.btnon{
+  background: #00b894;
+  color: white;
+}
+
+.btnon:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+
+.card{
+     width: 25%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 80%;
+  padding: 50px 50px 50px 110px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.button{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2,.btn5,.btn6{
+  color: #3498db;
+}
+.btn3,.btn4,.btn7,.btn8{
+  color: #fff;
+}
+.btn1:hover,.btn2:hover,.btn5:hover,.btn6:hover{
+  color: #fff;
+}
+.btn3:hover,.btn4:hover,.btn7:hover,.btn8:hover{
+  color: #3498db;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before,.btn5::before,.btn7::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before,.btn6::before,.btn8::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before,.btn7::before,.btn8::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before,.btn5:hover::before,.btn6:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before,.btn7:hover::before,.btn8:hover::before{
+  height: 0%;
+}
+
+
+
+
+.main-footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 25vh;
+  padding: 40px;
+
+}
+
+.footer-box {
+  width: 420px;
+  height: auto;
+  float: left;
+  font-family: sans-serif;
+
+}
+
+
+
+
+
+
